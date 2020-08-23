@@ -17,7 +17,7 @@
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
-TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
+TARGET_KERNEL_CONFIG := halium-7.1-herolte_defconfig
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
