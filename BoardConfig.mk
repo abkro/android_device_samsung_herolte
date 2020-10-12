@@ -18,7 +18,7 @@
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
 TARGET_KERNEL_CONFIG := halium-7.1-herolte_defconfig
-# BOARD_KERNEL_CMDLINE := "console=tty0"
+BOARD_KERNEL_CMDLINE += "console=tty0"
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
